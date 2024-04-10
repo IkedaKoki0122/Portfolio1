@@ -62,8 +62,8 @@ export default function Home() {
       {/* <Switcher darkClassName="dark-mode" /> */}
       <div className="profile-header-container">
         <ProfileHeader
-          name="Software engineer, father, and believer"
-          bio="Dedicated software engineer with expertise in HTML, CSS, and nearly advanced JavaScript. With a keen eye for design and a knack for problem-solving, they craft elegant and functional web applications. Their proficiency in CSS and HTML ensures visually appealing and responsive user interfaces, while their growing mastery of JavaScript enables them to create dynamic and interactive web experiences. Continuously striving for excellence, [Name] is committed to honing their skills and staying abreast of the latest trends and technologies in the ever-evolving field of software development."
+          name="Software engineer"
+          bio="Dedicated software engineer with expertise in HTML, CSS, java, and nearly advanced JavaScript. With a keen eye for design and a knack for problem-solving, they craft elegant and functional web applications. Their proficiency in CSS and HTML ensures visually appealing and responsive user interfaces, while their growing mastery of JavaScript enables them to create dynamic and interactive web experiences. Continuously striving for excellence, [Name] is committed to honing their skills and staying abreast of the latest trends and technologies in the ever-evolving field of software development."
           linkedinUrl="https://www.linkedin.com/in/yourprofile"
           imageUrl={profileIcon} // Pass the imported profile icon image as a prop
         />
@@ -84,16 +84,22 @@ export default function Home() {
           <div className="rightSidebar">
             <SignupWidget
               title={"Stay up to date"}
-              content={"Get notified when I publish something new, and unsubscribe at any time."}
+              content={
+                "Get notified when I publish something new, and unsubscribe at any time."
+              }
             />
             <ArticleWork
               title={"Work"}
-              content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."}
+              content={
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."
+              }
               items={works}
             />
             <SkillsWidget
               title={"Skills"}
-              content={"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."}
+              content={
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et massa mi."
+              }
               skills={skills}
             />
           </div>
