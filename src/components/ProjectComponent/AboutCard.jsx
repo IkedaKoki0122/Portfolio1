@@ -8,10 +8,12 @@ import React from "react";
 export default function AboutCard() {
   return (
     <div>
-      <div className="each-card">
+      <div className="each-card about-each-card">
         {/* <ion-icon name="barbell-outline" className="icon-darbell"></ion-icon> */}
         <h1>Contact Information</h1>
-        <p className="each-card-p">ikedakoki403@gmail.com</p>
+        <a href="mailto:hello@gmail.com" className="each-card-p">
+          hello@gmail.com
+        </a>
         <a href="https://tailwindcss.com/docs/fill" className="link-show">
           <Image src={logo} alt="" className="link-icon" />
           <p>https://www.linkedin.com/</p>

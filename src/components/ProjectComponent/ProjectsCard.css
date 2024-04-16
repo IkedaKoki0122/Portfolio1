@@ -21,6 +21,9 @@
   width: 350px;
   padding: 20px;
 }
+.about-each-card {
+  padding-left: 130px;
+}
 
 .link-show {
   display: flex;
@@ -59,4 +62,10 @@
   width: fit-content;
   border: 0.5px solid #666;
   margin: 5px;
+}
+.aboutCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 3000px;
 }
